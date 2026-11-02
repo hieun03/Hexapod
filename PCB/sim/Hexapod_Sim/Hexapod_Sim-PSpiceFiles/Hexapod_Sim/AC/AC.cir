@@ -1,0 +1,21 @@
+** Profile: "Hexapod_Sim-AC"  [ c:\users\vnx-p0004\onedrive\documents\electronics\hexapod\pcb\sim\hexapod_sim\hexapod_sim-PSpiceFiles\Hexapod_Sim\AC.sim ] 
+
+** Creating circuit file "AC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC DEC 1k 1 20k
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\Hexapod_Sim.net" 
+
+
+.END

@@ -1,0 +1,5 @@
+* source HEXAPOD_SIM
+V_V1         +3V3 0 3.3Vdc
+V_V2         +5V 0 5Vdc
+R_R1         0 +3V3  1k TC=0,0 
+R_R2         0 +5V  1k TC=0,0 
