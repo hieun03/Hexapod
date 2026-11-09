@@ -1,0 +1,36 @@
+# ==============================
+# Altium Designer
+# ==============================
+# Auto-backups and previews
+History/
+__Previews/
+
+# Compilation and ECO logs
+Project Logs*/
+*.LOG
+*.ERR
+
+# Generated manufacturing/BOM outputs
+Project Outputs*/
+
+# ==============================
+# PSpice / Simulation Outputs
+# ==============================
+# Temporary and generated simulation data
+*.DBK
+*.1OP
+*.out
+*.out.*
+*.dat
+*.prb
+*.mrk
+*.als
+*.net
+*.sim
+*.prp
+
+# ==============================
+# General / OS
+# ==============================
+# Uncomment the line below if you don't want to track the downloaded .zip files in libs/ and docs/
+# *.zip
