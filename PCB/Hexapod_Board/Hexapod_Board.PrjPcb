@@ -509,12 +509,22 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
+OutputType21=XSpiceNetlist
+OutputName21=Mixed Sim Netlist
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=OrCADPS_23.1
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputType1=AdvSimNetlist
+OutputName1=Mixed Sim
+OutputDocumentPath1=
+OutputVariantName1=
+OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1070,16 +1080,6 @@ Type158=1
 Type159=1
 Type160=1
 Type161=1
-Type162=1
-Type163=1
-Type164=1
-Type165=1
-Type166=1
-Type167=1
-Type168=1
-Type169=1
-Type170=1
-Type171=1
 
 [Difference Levels]
 Type1=1
@@ -1170,13 +1170,6 @@ Type85=1
 Type86=1
 Type87=1
 Type88=1
-Type89=1
-Type90=1
-Type91=1
-Type92=1
-Type93=1
-Type94=1
-Type95=1
 
 [Electrical Rules Check]
 Type1=1
